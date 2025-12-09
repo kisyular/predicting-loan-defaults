@@ -1,0 +1,273 @@
+# ============================================================================
+# LOAN DEFAULT PREDICTION - .GITIGNORE
+# ============================================================================
+
+# ========== DATA FILES ==========
+# Raw data (large files, external sources)
+case_data.csv
+*.csv
+
+# Exception: Keep sample/test data (uncomment if needed)
+# !sample_data.csv
+# !test_data.csv
+
+# ========== GENERATED OUTPUTS ==========
+# Processed data from notebooks/scripts
+processed_data/
+artifacts/
+
+# Model outputs
+models/
+predictions/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Visualization outputs
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ========== PYTHON ARTIFACTS ==========
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# ========== IDE/EDITOR ==========
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+.idea/*
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ========== OS SPECIFIC ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ========== PROJECT SPECIFIC ==========
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# ========== LARGE FILES / DATA ==========
+# Add specific large files here
+# *.parquet
+# *.feather
+# *.hdf5
+
+# ========== SECRETS & CREDENTIALS ==========
+# API keys and credentials
+secrets/
+credentials/
+*.key
+*.pem
+config/secrets.json
+.env.local
+.env.*.local
+
+# ========== OPTIONAL: KEEP THESE COMMENTED ==========
+# Uncomment if you want to ignore notebooks (keep .py versions only)
+# *.ipynb
+
+# Uncomment if using DVC for data versioning
+# *.dvc
+# .dvc/
+
+# Uncomment if you want to ignore HTML reports
+# *.html
