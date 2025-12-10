@@ -4,11 +4,10 @@
 
 # ========== DATA FILES ==========
 # Raw data (large files, external sources)
-case_data.csv
 *.csv
 
 # Exception: Keep sample/test data (uncomment if needed)
-# !sample_data.csv
+!case_data.csv
 # !test_data.csv
 
 # ========== GENERATED OUTPUTS ==========
